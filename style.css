@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    background-image: url("manny.png");
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h1{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background: #2ba968;
+    outline: 0;
+    border-radius: 50px;
+    border-style: none;
+    width: 230px;
+    box-shadow: 5px 5px 10px #4cac6c -5px -5px 10px #de74c9;
+  
+  }
+  input[type="text"]{
+    outline: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: rgb(131, 122, 214);
+    color: #2f4f4f;
+  }
+  div input [type='button'],button{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    background: #7264ef;
+    outline: 0;
+    border-radius: 80px;
+    border-style: none;
+    width: 80px;
+    box-shadow: 5px 5px 10px #8077e6 -5px -5px 10px #df98de;
+  
+  }
+  .taskframes{
+    background-color: rgb(229, 230, 217);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+  
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #000000;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .delete{
+    background-color: #ef4a4a;
+    padding: 0px 3px 0px 3px;
+    color: rgb(226, 137, 236);
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .main{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    button{
+      width: 10%;
+    }
+  }
+  @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+  }
+  
+  
+  @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) { 
+  } 
+  
